@@ -1,18 +1,20 @@
 import React, {  } from 'react';
-import { AppBar, Toolbar, Button } from '@mui/material';
+import { AppBar, Toolbar, Button, Stack } from '@mui/material';
 import logo from '../assets/img/logo.png';
+import SearchInput from './SearchInput';
 
 const Navbar: React.FC = () => {
 
   return (
     <AppBar position="static" sx={{ backgroundColor: 'transparent', boxShadow: 'none' }}>
-      <Toolbar>
+      <Stack direction={'row'} alignItems={'center'} spacing={4}>
         <img src={logo} alt="Logo" style={{ height: '76px', marginRight: '10px' }} />
         <Button>Explore</Button>
         <Button>Learn</Button>
+        <SearchInput />
         <Button>Sign In</Button>
         <Button>Sign Up</Button>
-      </Toolbar>
+      </Stack>
     </AppBar>
   );
 };
