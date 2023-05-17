@@ -1,38 +1,38 @@
-.App {
-  text-align: center;
+.MuiButtonBase-root {
+  text-transform: none !important;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.search-input {
+  flex: 1;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: rgba(71, 51, 255, 0.08);
+  border-radius: 999px; 
+  padding: 8px 15px;
 }
-
-.App-link {
-  color: #61dafb;
+.search-input label {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.search-input input {
+  font-size: .7rem;
+}
+.search-input .categories {
+  border-radius: 999px;
+  overflow: hidden; 
+  display: flex;
+  align-items: center; 
+  background-color: #FEFEFE;
+}
+.search-input .categories button {
+  box-shadow: none;
+  background-color: #FEFEFE;
+  color: #3B4050;
+  padding: 2px 10px;
+  font-size: .7rem;
+}
+.search-input .categories button.selected {
+  background-color: #3B4050;
+  color: #FEFEFE;
+  border-radius: 999px;
 }
