@@ -3,6 +3,7 @@
 }
 .search-input {
   flex: 1;
+  max-width: 860px;
   display: flex;
   align-items: center;
   background-color: rgba(71, 51, 255, 0.08);
