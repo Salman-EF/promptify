@@ -1,12 +1,13 @@
 .App {
   height: 100vh;
-  background: rgba(71, 51, 255, 0.08);
+  background-color: #FFFFFF;
 }
 .bg-container {
   background-image: url(./assets/img/background.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  background-color: rgba(71, 51, 255, 0.08);
 }
 .MuiButtonBase-root {
   text-transform: none !important;
