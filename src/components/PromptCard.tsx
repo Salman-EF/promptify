@@ -12,12 +12,15 @@ interface PromptCardProps {
 const PromptCard: React.FC<PromptCardProps> = ({ prompt }) => {
   return (
     <Box display="flex" justifyContent="center">
-      <Card sx={{ margin: '0 10px' }}>
-         <CardMedia component="img" height="100" image={prompt.imageSrc} alt={prompt.title} />
+      <Card>
+         <CardMedia component="img" image={prompt.imageSrc} alt={prompt.title} 
+            className="prompt-img" 
+         />
          <CardContent>
-         <Typography variant="body2" sx={{ textAlign: 'center' }}>
-            {prompt.title}
-         </Typography>
+            <Typography variant="h6">{prompt.title}</Typography>
+            <Typography variant="body2">
+               
+            </Typography>
          </CardContent>
       </Card>
     </Box>

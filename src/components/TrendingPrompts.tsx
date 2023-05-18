@@ -5,16 +5,16 @@ import { Stack, Typography } from "@mui/material";
 
 function TrendingPrompts() {
    const prompts = [
-     { title: 'Personal Development', imageSrc: promptImg },
-     { title: 'Health and Wellness', imageSrc: promptImg },
-     { title: 'Financial Planning', imageSrc: promptImg },
+     { title: 'UX/UI Designer v2.1 - Rachel Johnson', imageSrc: promptImg },
+     { title: 'UX/UI Designer v2.1 - Rachel Johnson', imageSrc: promptImg },
+     { title: 'UX/UI Designer v2.1 - Rachel Johnson', imageSrc: promptImg },
    ];
 
   return (
    <div className="prompts-section">
-      <Typography variant="h6">Trending Prompts</Typography>
+      <Typography variant="h6" className="title">Trending Prompts</Typography>
       <Stack
-         direction={'row'} justifyContent={'center'} spacing={2} flexWrap={"wrap"}
+         direction={'row'} justifyContent={'flex-start'} spacing={2} flexWrap={"wrap"}
          className="prompts"
       >
          {prompts.map((prompt, i) => (
