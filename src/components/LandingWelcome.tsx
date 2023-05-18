@@ -1,5 +1,6 @@
 import React from 'react';
 import { Typography } from '@mui/material';
+import SearchInput from './SearchInput';
 
 const LandingWelcome: React.FC = () => {
   return (
@@ -10,6 +11,7 @@ const LandingWelcome: React.FC = () => {
       <Typography variant="body1">
          Unleash your creative potential using Promptify, the ultimate ChatGPT and AI-driven content generation and idea inspiration platform. Try it today!
       </Typography>
+      <SearchInput />
     </div>
   );
 };
