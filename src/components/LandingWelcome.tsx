@@ -14,12 +14,7 @@ const LandingWelcome: React.FC = () => {
       <SearchInput />
       <div className='topics'>
          <Typography variant="body1">
-            Popular topics:
-            <Button>Personal Finance</Button>
-            <Button>ChatGPT4</Button>
-            <Button>Learning</Button>
-            <Button>Books</Button>
-            <Button>Scenario</Button>
+            Popular topics: <Button>Personal Finance</Button><Button>ChatGPT4</Button><Button>Learning</Button><Button>Books</Button><Button>Scenario</Button>
          </Typography>
       </div>
     </div>
