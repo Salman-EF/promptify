@@ -9,7 +9,7 @@ function TrendingPrompts() {
    <div className="prompts-section">
       <Typography variant="h6" className="title">Trending Prompts</Typography>
       <Stack
-         direction={'row'} justifyContent={'flex-start'} spacing={2} flexWrap={"wrap"}
+         direction={'row'} justifyContent={'flex-start'} gap={4} flexWrap={"wrap"}
          className="prompts"
       >
          {promptsList.map((prompt, i) => (

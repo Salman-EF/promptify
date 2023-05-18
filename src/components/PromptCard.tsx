@@ -1,6 +1,7 @@
 import React from 'react';
 import { Typography, Card, CardMedia, CardContent, Box, Link } from '@mui/material';
 import { Prompt } from '../utils/constants';
+import { Favorite } from '@mui/icons-material';
 interface PromptCardProps {
   prompt: Prompt;
 }
@@ -20,6 +21,10 @@ const PromptCard: React.FC<PromptCardProps> = ({ prompt }) => {
                   {prompt.topics.map((topic, i) => (
                      <span key={i} className="topic">{topic}</span>
                   ))}
+               </div>
+               <div className="footer">
+                  <span className="user"><img src={prompt.user.avatar} alt="Logo" /> {prompt.user.name}</span>
+                  <span className="likes"><Favorite/> {prompt.likes}</span>
                </div>
             </Typography>
          </CardContent>
