@@ -57,3 +57,12 @@
   color: #FEFEFE;
   border-radius: 999px;
 }
+.land-welcome {
+  width: 70%;
+  max-width: 680px;
+  margin: 5rem auto;
+  text-align: center;
+}
+.land-welcome h3 {
+  margin-bottom: 2rem;
+}
