@@ -19,7 +19,7 @@ const Categories: React.FC = () => {
 
    return (
       <Stack 
-         direction={'row'} justifyContent={'space-around'}
+         direction={'row'} justifyContent={'space-around'} spacing={1}
          className="land-categories"
       >
          {catgs.map((catg, i) => (
