@@ -8,6 +8,19 @@
 .MuiButtonBase-root {
   text-transform: none !important;
 }
+.MuiLink-root {
+  text-decoration: none !important;
+  color: black !important;
+  font-size: .9rem !important;
+  font-weight: 500 !important;
+}
+.MuiLink-root.primary {
+  background-color: #3B4050 !important;
+  color: #FEFEFE !important;
+  border-radius: 999px !important;
+  padding: 10px 16px !important;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.2);
+}
 .search-input {
   flex: 1;
   max-width: 860px;
@@ -23,7 +36,7 @@
   margin-right: 10px;
 }
 .search-input input {
-  font-size: .7rem;
+  font-size: .8rem;
 }
 .search-input .categories {
   border-radius: 999px;
@@ -37,7 +50,7 @@
   background-color: #FEFEFE;
   color: #3B4050;
   padding: 2px 10px;
-  font-size: .7rem;
+  font-size: .8rem;
 }
 .search-input .categories button.selected {
   background-color: #3B4050;
