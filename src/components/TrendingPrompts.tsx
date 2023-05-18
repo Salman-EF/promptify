@@ -1,14 +1,9 @@
-import PromptCard from "./PromptCard";
-import promptImg from '../assets/img/prompt.png';
 import { Stack, Typography } from "@mui/material";
+import PromptCard from "./PromptCard";
+import { promptsList } from "../utils/constants";
 
 
 function TrendingPrompts() {
-   const prompts = [
-     { title: 'UX/UI Designer v2.1 - Rachel Johnson', imageSrc: promptImg },
-     { title: 'UX/UI Designer v2.1 - Rachel Johnson', imageSrc: promptImg },
-     { title: 'UX/UI Designer v2.1 - Rachel Johnson', imageSrc: promptImg },
-   ];
 
   return (
    <div className="prompts-section">
@@ -17,7 +12,7 @@ function TrendingPrompts() {
          direction={'row'} justifyContent={'flex-start'} spacing={2} flexWrap={"wrap"}
          className="prompts"
       >
-         {prompts.map((prompt, i) => (
+         {promptsList.map((prompt, i) => (
             <PromptCard key={i} prompt={prompt} />
          ))}
       </Stack>
