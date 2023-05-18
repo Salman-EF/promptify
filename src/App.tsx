@@ -2,6 +2,7 @@ import './App.css';
 import Categories from './components/Categories';
 import LandingWelcome from './components/LandingWelcome';
 import Navbar from './components/Navbar';
+import TrendingPrompts from './components/TrendingPrompts';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <LandingWelcome />
         <Categories />
       </div>
+      <TrendingPrompts />
     </div>
   );
 }
