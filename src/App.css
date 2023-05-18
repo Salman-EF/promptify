@@ -106,9 +106,27 @@
 .prompts-section {
   padding: 2rem;
 }
+.prompts-section .prompt-card {
+  background-color: #F6F5FF;
+  border-radius: 16px;
+  box-shadow: none;
+}
+.prompts-section .prompt-card:hover {
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.2);
+}
 .prompts-section .title {
   margin-bottom: 2rem;
 }
 .prompts-section img.prompt-img {
   height: 156px;
+}
+.prompts-section .prompt-ttl {
+  margin-bottom: 1rem;
+}
+.prompts-section .topic {
+  background-color: #FFFFFF;
+  color: #3B4050;
+  border-radius: 999px;
+  padding: 5px 10px;
+  margin-right: 10px;
 }
