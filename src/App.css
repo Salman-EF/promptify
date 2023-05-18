@@ -1,6 +1,6 @@
 .App {
   height: 100vh;
-  background: #FFFFFF;
+  background: rgba(71, 51, 255, 0.08);
 }
 .bg-container {
   background-image: url(./assets/img/background.png);
@@ -79,4 +79,26 @@
   border-radius: 999px;
   padding: 2px 10px;
   font-size: .8rem;
+  margin-right: 10px;
+}
+.land-categories {
+  padding: 1rem 1rem;
+}
+.land-categories a {
+  box-shadow: none;
+  background-color: #FEFEFE;
+  color: #3B4050;
+  padding: 6px 10px;
+  font-size: .8rem;
+  border-radius: 999px;
+  line-height: 1.2;
+}
+.land-categories a:hover {
+  background-color: #ffffffb8;
+}
+.land-categories a img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin-right: 5px;
 }
